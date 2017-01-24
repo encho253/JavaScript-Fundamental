@@ -4,7 +4,7 @@
             "type": "node",
             "request": "launch",
             "name": "Launch Program",
-            "program": "${workspaceRoot}/05.Conditional-Statements/05.ConditionalStatements.js",
+            "program": "${workspaceRoot}/07.Arrays/07.Arrays.js",
             "cwd": "${workspaceRoot}"
         },
         {

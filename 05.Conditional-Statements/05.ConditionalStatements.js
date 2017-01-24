@@ -126,7 +126,7 @@ function solve(args) {
 
 //06. Quadratic equation
 function solve(args) {
-
+    
 
 }
 
@@ -161,7 +161,7 @@ function solve(params) {
                 } else {
                     array[i] = Math.max(s[i - 1], s[i + 1]);
                 }
-            } else if (s[i] % 2 != 0 && s[i] != 1) {
+            } else if (s[i] % 2 !== 0 && s[i] != 1) {
                 if (i === 0) {
                     array[0] = Math.min(s[nk[0] - 1], s[1]);
                 } else if (i === nk[0] - 1) {
